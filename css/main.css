@@ -212,9 +212,7 @@ a {
 }
 
 /* nav link */
-nav a, nav a:visited {
-  color: #fff;
-}
+
 
 /* selected nav link */
 nav a:hover {
