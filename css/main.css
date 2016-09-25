@@ -120,16 +120,17 @@ PAGE: PORTFOLIO
   width: 45%;
   margin: 2.5%;
   background-color: #f5f5f5;
-  color: black;
-    
+  color: #bdc3c7;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: black;
+  color: #bdc3c7
 }
+
+
 
 /**********************************
 PAGE: ABOUT
@@ -210,15 +211,11 @@ a {
 }
 
 /* nav link */
-
-
-/* selected nav link */
-nav a:hover {
-  color: #40E0D0;
+nav a, nav a:visited {
+  color: #fff;
 }
 
-
-
-nav a:active {
-    color:chartreuse;
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #40E0D0;
 }
