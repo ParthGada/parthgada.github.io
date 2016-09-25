@@ -135,6 +135,7 @@ PAGE: PORTFOLIO
   max-width: 60px;
   margin: auto;
   padding:0;
+  position: right;
 }
 
 /**********************************
