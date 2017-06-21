@@ -1,0 +1,334 @@
+
+/*
+*
+* BASIC DESIGN
+*
+*
+*/
+*{
+	
+}
+
+.wrapper{
+	text-align:center;
+	background: #16BFFD; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #16BFFD , #CB3066); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #16BFFD , #CB3066); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+	padding-top: 50px;
+	height: 850px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+
+img{
+	max-width:100%;
+}
+
+#wcid{
+	background: #A1FFCE; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #A1FFCE , #FAFFD1); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #A1FFCE , #FAFFD1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+#temp-h1{
+	color:black
+}
+
+#temp-h1:hover{
+	color:lightblue;
+}
+
+#nav-bar{
+	position: fixed;
+	top: 0;
+	background-color: black;
+	width:100%;
+
+}
+
+.meter-me{
+	margin:auto;
+	color: black;
+}
+
+.meter-me-text{
+	color: black;
+}
+
+.meter-me-text:hover{
+	color: navyblue;
+}
+
+.box {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  text-align: center;
+  height: 26px;
+  color: white;
+
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.box:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+
+  color:black;
+
+
+}
+
+.container{
+	max-width: 100%;
+	margin:auto;
+	
+}
+
+.main-footer{
+	text-align:center;
+	
+}
+
+
+/*
+*
+* DESIGN
+*
+*
+*/
+
+h1{
+		font-family: 'Pacifico', cursive;
+		padding-top:50px;
+
+		font-size: 5.625rem; /* 90px/16px  */
+		color: rgba(255, 255, 255, 1);
+	  
+		font-weight: normal;
+		line-height: 1.3;
+		text-shadow: 0 1px 0 #ccc,
+				   0 2px 0 #c9c9c9,
+				   0 3px 0 #bbb,
+				   0 4px 0 #b9b9b9,
+				   0 5px 0 #aaa,
+				   0 6px 1px rgba(0,0,0,.1),
+				   0 0 5px rgba(0,0,0,.1),
+				   0 1px 3px rgba(0,0,0,.3),
+				   0 3px 5px rgba(0,0,0,.2),
+				   0 5px 10px rgba(0,0,0,.25),
+				   0 10px 10px rgba(0,0,0,.2),
+				   0 20px 20px rgba(0,0,0,.15);
+				   animation: 3s slidein;
+			   
+}
+
+h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px; /* 90px/16px  */
+	color: rgba(255, 255, 255, 1);
+	font-weight: normal;
+    padding-right: 150px;
+    padding-left: 150px;
+
+  
+	
+}
+
+h2{
+		font-family: 'Oswald', sans-serif;
+	font-size: 20px; /* 90px/16px  */
+	color: rgba(255, 255, 255, 1);
+	font-weight: normal;
+    padding-right: 150px;
+    padding-left: 150px;
+	
+}
+
+
+/*
+*
+* Navigation Bar
+*
+*
+*/
+
+#nav-bar{
+	background-color: none;
+	padding-top:20px;
+	padding-bottom:10px;
+	text-align:center;
+	letter-spacing:15px;
+	word-spacing: 10px;
+	
+	
+}
+
+/*
+*
+* PSEUDO CLASS
+*
+*
+*/
+a:hover{
+	color:lightblue;
+	
+}
+
+h1:hover{
+	color: lightblue;
+}
+
+a{
+	color: white;	
+	text-decoration: none;
+	
+	
+}
+
+.social{
+	
+    margin-top: 25px;
+
+	
+}
+/*
+*
+* SOCIAL
+*
+*
+*/#fb{
+	margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+#ytb{
+	margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+	
+}
+
+#twitter{
+	margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+#fb:hover{
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+	color: black;
+}
+
+#ytb:hover{
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+	color: black;
+}
+
+#twitter:hover{
+	-webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+	color: black;
+}
+
+/*
+*
+* BODY DESIGN
+*
+*
+*/
+body{
+	background-color:#313131;
+	
+	
+}
+
+/*
+*
+* ABOUT PART
+*
+*
+*/
+
+#aboutme{
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 ;
+}
+
+
+
+.profile-photo{
+	display: block;
+	max-width: 200px;
+	margin:  auto ;
+	border-radius: 90%;
+}
+
+.description{
+	font-family: 'Oswald', sans-serif;
+}
+
+/*
+*
+* FOOTER
+*
+*
+*/
+
+.foot{
+background: #3a7bd5; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+	font-family: 'Oswald', sans-serif;
+	padding-top:18;
+	padding-bottom:0;
+}      
+
+#temp-h2{
+color:black;
+font-size:40px;
+}  
+
+
+/*
+*
+* PROJECTS
+*
+*
+*/
+
+#projectswrapper{
+  max-width: 940px;
+  margin-bottom: 50px;
+  padding: 0 5%;
+  margin-top:50px;
+}
+
+#projectswrapper img { 
+	filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); 
+    filter: gray;
+    -webkit-transition: all .6s ease; }
+
+#projectswrapper img:hover {  
+	filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none; }
+    
