@@ -1,0 +1,366 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rebeccapurple;
+}
+/***************
+****************
+MENU SLIDER CSS
+****************
+****************/
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 999;
+    transition: all .3s; 
+    display: table;
+}
+
+#icon{
+    height: 25px;
+    width: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+#icon:hover{
+    cursor: pointer;
+}
+
+#line{
+    height: 5px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#line::before{
+    content: '';
+    height: 5px;
+    width: 30px;
+    background-color: aliceblue;
+    position: absolute;
+    top: -10px;
+}
+
+#line::after{
+    content: '';
+    height: 5px;
+    width: 30px;
+    background-color: aliceblue;
+    position: absolute;
+    top: +10px;
+}
+
+#menu{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    letter-spacing: 4px;
+    font-family: 'Roboto Condensed', sans-serif;  
+}
+
+#m1{
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    float: left;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+#m2{
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    float: left;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+#m3{
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    float: right;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    right: 35%;
+}
+
+#m4{
+    height: 100px;
+    width: 10%;
+    text-align: center;
+    float: right;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    right: 25%;
+}
+
+/***************
+****************
+CONTENT
+****************
+****************/
+
+#intro{
+    text-align: center; 
+    margin-top: 400px;
+    color: white; 
+    font: bold 50px Helvetica, Arial, Sans-Serif;
+    text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902;
+font-family: 'Raleway', sans-serif;
+
+
+}
+#intro:hover{
+       position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px #fe4902, 
+                2px 2px #fe4902, 
+                3px 3px #fe4902, 
+                4px 4px #fe4902, 
+                5px 5px #fe4902, 
+                6px 6px #fe4902;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/***************
+****************
+PARALLAX CONTENT
+****************
+****************/
+#infobox1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/indiaflaghomepage.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#infobox2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/indus.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#infobox3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/buddha.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#infobox4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/alexempire.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#infobox5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/gupta.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/maurya.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/islam.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox8{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/slave.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox9{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/vasco.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox10{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/mughal.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox11{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/eastindia.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox12{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/maratha.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox13{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/inrtrain.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox14{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/ww1.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox15{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/freedom.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox16{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/gandhi.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox17{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/afterfree.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox18{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/isro.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#infobox19{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/univ.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#infobox20{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/demon.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+.boxes h1{
+    font-family: arial;
+    font-size: 70px;
+    color: #fcffd2;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.boxes h2{
+    font-family: arial;
+    color: #fcffd2;
+    margin: 0px;
+    text-align: center;
+    display: table-row;
+    vertical-align: center;
+    font-size: 45px
+}
+
+#boxes h1:hover{
+    box-shadow: inset 0px 10px 0px 10px;
+}
+
+/***************
+****************
+ABOUT
+****************
+****************/
+#introabt{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    color: white;
+    font-family: arial;
+    
+}
+
+
+
+
